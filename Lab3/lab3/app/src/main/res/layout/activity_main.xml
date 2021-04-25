@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.evan.lab3.MainActivity">
+    <TextView
+        android:layout_marginTop="50dp"
+        android:text="Hello, this is a simple Log In demo."
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/design_default_color_primary"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <RelativeLayout
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout1">
+        <TextView
+            android:text="User Name"
+            android:layout_width="match_parent"
+            android:layout_height="25dp" />
+        <EditText
+            android:layout_marginTop="25dp"
+            android:textAlignment="0"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/editText"/>
+        <TextView
+            android:text="Password"
+            android:layout_marginTop="75dp"
+            android:layout_width="match_parent"
+            android:layout_height="25dp" />
+        <EditText
+            android:layout_marginTop="100dp"
+            android:textAlignment="0"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/editText1"/>
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_marginTop="150dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Display Password" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_marginLeft="80dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnAdd"
+            android:text="Sing Up"/>
+        <Button
+            android:layout_marginLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnView"
+            android:text="View"
+            android:layout_toRightOf="@+id/btnAdd"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
