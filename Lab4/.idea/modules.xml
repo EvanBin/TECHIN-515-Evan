@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lab4.iml" filepath="$PROJECT_DIR$/.idea/modules/lab4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/build-android/lab4.build-android.iml" filepath="$PROJECT_DIR$/.idea/modules/build-android/lab4.build-android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/build-android-start/lab4.build-android-start.iml" filepath="$PROJECT_DIR$/.idea/modules/build-android-start/lab4.build-android-start.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/build-android-start/app/lab4.build-android-start.app.iml" filepath="$PROJECT_DIR$/.idea/modules/build-android-start/app/lab4.build-android-start.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/build-android/app/lab4.build-android.app.iml" filepath="$PROJECT_DIR$/.idea/modules/build-android/app/lab4.build-android.app.iml" />
+    </modules>
+  </component>
+</project>
